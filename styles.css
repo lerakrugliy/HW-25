@@ -1,0 +1,33 @@
+.rec{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.rec1{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.rec2{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.rec3{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: -1;
+}
